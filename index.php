@@ -60,7 +60,13 @@
 
                 <td>
                     <div class="btn">
-                        <button class="btn1"> Click Me </button>
+                    <button class="btn1" onclick="btnfunction()"> Click Me </button>
+                    
+                        <script>
+                            function btnfunction(){
+                                alert("Hello, I am an Alert Box 😀");
+                            }
+                        </script>
                     </div>
                 </td>
             </tr>
