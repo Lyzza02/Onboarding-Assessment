@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.btn{
+    margin-top: 0px;
+    height: max-content;
+    text-align: center;
+}
+
+.btn1 {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px;
+    background-color: #0000CD;
+} 
+
+table, td{
+    margin: 20px;
+    padding: 0px 0px 50px 0px;
+}
+
+td{
+    margin-top: 0px;
+    width: 50%;
+}
