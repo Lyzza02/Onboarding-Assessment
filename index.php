@@ -74,11 +74,13 @@
             <tr>
                 <td>
                     <p>
-                        <?php 
-                        for ($x = 0; $x < count($words); $x++){
-                            echo $words[$x]." ";
-                        }
-                        ?>
+                        <ul style="margin-left: 20px">
+                            <?php 
+                            for ($x = 0; $x < count($words); $x++){
+                                echo "<li>".$words[$x]."</li>";
+                            }
+                            ?>
+                        </ul>
                     </p>
                 </td>
             </tr>
